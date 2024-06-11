@@ -79,3 +79,5 @@ export const skillsData = [
   "Django",
   "Framer Motion",
 ] as const;
+
+export const profilePicUrl = "https://media.licdn.com/dms/image/D4E03AQF0XSzjXPsPBg/profile-displayphoto-shrink_800_800/0/1717622223549?e=1723680000&v=beta&t=f1MHdTxWxir7yzpkiBBSG4bKZnHyZSvAwUxJVJA3NWg"
