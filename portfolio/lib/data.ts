@@ -2,6 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import tutorials from "../public/tutorials.png";
+import addresses from "../public/fakeAddresses.png";
+import workspace from "../public/workspace.jpg";
 
 export const links = [
   {
@@ -57,6 +60,30 @@ export const experiencesData = [
   },
 ] as const;
 
+export const projectsData = [
+  {
+    title: "Tutorial Manger",
+    description:
+      "One of my first projects. Created in my first year of University. It's a c++ app that manages tutorials. It has features like adding, deleting, updating and creating watchlists.",
+    tags: ["C++", "Github", "OOP"],
+    imageUrl: tutorials,
+  },
+  {
+    title: "Fake Address Generator",
+    description:
+      "An app developed in the second year of University. It is a CRUD for 2 entities: Addresses and People. It uses a REST API and a SQL database.",
+    tags: ["React", "NodeJS", "SqlServer", "Git"],
+    imageUrl: addresses,
+  },
+  {
+    title: "This website :)",
+    description:
+      "A portfolio created with Next.js. It has a clean and smooth design. ",
+    tags: ["React", "Next.js", "Tailwind", "Framer motion", "TypeScript"],
+    imageUrl: workspace,
+  },
+] as const;
+
 
 export const skillsData = [
   "HTML",
@@ -66,17 +93,14 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "Java",
+  "C++",
   "Git",
   "Tailwind",
   "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
   "PostgreSQL",
+  "Express",
   "Python",
-  "Django",
   "Framer Motion",
 ] as const;
 
