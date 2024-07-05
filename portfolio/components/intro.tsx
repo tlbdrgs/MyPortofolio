@@ -53,9 +53,7 @@ export default function Intro() {
                 <span className='font-bold'>Cluj-Napoca.</span> Currently I am studying {" "}
                 <span className='underline'>Computer science</span>. This is a {" "}
                 <span className='font-bold'>website</span> I built to practice {" "}
-                <span className='italic'>my front-end skills. </span>
-                <span className='font-bold'>front-end </span>
-                <span className='italic'>skills.</span> 😸
+                <span className='font-bold'>my front-end skills.</span> 😸
             </motion.p>
             <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-5 text-lg font-medium'
                 initial={{ opacity: 0, y: 100 }}
