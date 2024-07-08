@@ -69,15 +69,15 @@ export default function Intro() {
                     Go to my GitHub <FaGithubSquare className='opacity-60 group-hover:translate-x-1' />
                 </Link>
 
-                <a href='/CV.pdf' download={true} className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10'>
+                <a href='/CV.pdf' download={true} className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10'>
                     Download CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition' />
                 </a>
 
-                <a href='https://www.linkedin.com/in/dragoș-ionuț-talabă-774aa5206/' target="_blank" className='bg-white p-4 text-slate-700 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110  active:scale-105 transition border border-black/10 hover:text-slate-950'>
+                <a href='https://www.linkedin.com/in/dragoș-ionuț-talabă-774aa5206/' target="_blank" className='bg-white p-4 text-slate-700 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110  active:scale-105 transition border border-black/10 hover:text-slate-950 dark:bg-white/10 dark:text-white/75'>
                     <BsLinkedin />
                 </a>
 
-                <a href='https://www.instagram.com/talabadragos/' target="_blank" className='bg-white p-4 text-slate-700 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110  active:scale-105 transition border border-black/10'>
+                <a href='https://www.instagram.com/talabadragos/' target="_blank" className='bg-white p-4 text-slate-700 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110  active:scale-105 transition border border-black/10 dark:bg-white/10 dark:text-white/75'>
                     <BsInstagram />
                 </a>
             </motion.div>
