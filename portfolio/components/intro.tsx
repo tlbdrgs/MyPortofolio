@@ -15,7 +15,7 @@ export default function Intro() {
     const { ref } = useSectionInView('Home', 1);
 
     return (
-        <section ref={ref} id='home' className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'>
+        <section ref={ref} id='home' className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem] dark:drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>
             <div className='flex items-center justify-center'>
                 <div className='relative'>
                     <motion.div

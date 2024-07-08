@@ -14,7 +14,7 @@ export default function Experience() {
     id='experience'
     ref={ref}>
         <SectionHeading>My Experience</SectionHeading>
-        <VerticalTimeline lineColor=" ">
+        <VerticalTimeline lineColor="">
             {
                 experiencesData.map((item,index) => (
                 <React.Fragment key={index}>
