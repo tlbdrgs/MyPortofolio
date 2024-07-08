@@ -1,7 +1,5 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { LuGraduationCap, LuUserPlus } from "react-icons/lu";
 import tutorials from "../public/tutorials.png";
 import addresses from "../public/fakeAddresses.png";
 import workspace from "../public/workspace.jpg";
@@ -32,28 +30,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated highschool",
+    location: "Targu Jiu, Romania",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated highschool with a focus on math and computer science. I also participated in programming contests.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "University",
+    location: "Cluj-Napoca, Romania",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I'm currently studying Computer Science at Babes-Bolyai University. I'm in my third year and I'm enjoying it. I've learned a lot of things and I'm looking forward to learning more.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022 - 2025 (expected)",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Searching for opportunities",
+    location: "?",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I'm looking for internships and opportunities to learn and grow. I'm interested in web development and I'm looking forward to working on interesting projects.",
+    icon: React.createElement(LuUserPlus),
+    date: "Present",
   },
 ] as const;
 
