@@ -35,7 +35,7 @@ export const experiencesData = [
     description:
       "I graduated highschool with a focus on math and computer science. I also participated in programming contests.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2018-2022",
   },
   {
     title: "University",
