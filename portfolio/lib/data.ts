@@ -1,8 +1,9 @@
 import React from "react";
 import { LuGraduationCap, LuUserPlus } from "react-icons/lu";
-import tutorials from "../public/tutorials.png";
+import hotelSeeker from "../public/hotelSeeker.png";
 import addresses from "../public/fakeAddresses.png";
 import workspace from "../public/workspace.jpg";
+import avatar from "../public/avatar1.png";
 
 export const links = [
   {
@@ -57,12 +58,12 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Tutorial Manger",
+    title: "HotelSeeker",
     description:
-      "One of my first projects. Created in my first year of University. It's a c++ app that manages tutorials. It has features like adding, deleting, updating and creating watchlists.",
-    tags: ["C++", "Github", "OOP"],
-    imageUrl: tutorials,
-  },
+      "A single-page hotel booking app built with React and Java, featuring location-based search, secure JWT authentication, and PostgreSQL for data management.",
+    tags: ["React", "Java", "PostgreSQL", "JWT", "Flyway", "JavaScript"],
+    imageUrl: hotelSeeker,
+  },  
   {
     title: "Fake Address Generator",
     description:
@@ -99,4 +100,4 @@ export const skillsData = [
   "Framer Motion",
 ] as const;
 
-export const profilePicUrl = "https://media.licdn.com/dms/image/D4E03AQF0XSzjXPsPBg/profile-displayphoto-shrink_800_800/0/1717622223549?e=1723680000&v=beta&t=f1MHdTxWxir7yzpkiBBSG4bKZnHyZSvAwUxJVJA3NWg"
+export const profilePicUrl = avatar;
