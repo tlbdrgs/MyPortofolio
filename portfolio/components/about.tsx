@@ -22,7 +22,7 @@ export default function About() {
                 <span className='font-bold'>Visual Design and programming</span>. I have always admired {" "}
                 <span className='font-bold'>art of all kinds</span>, starting from <span className='underline'>paintings</span> and <span className='underline'>movies</span> to even <span className='underline'>Origami</span>. In my Middle School, I found out about programming and {" "}
                 <span className='font-bold'>I loved it ever since</span>. The concept of <span className='italic'>pressing buttons on a keyboard</span> and seeing all kinds of creative work always amazed me. {" "}
-                <span className='font-bold'>Currently, in the second year of University</span>, I decided to follow the {" "}
+                <span className='font-bold'>Currently, in the final year of University</span>, I decided to follow the {" "}
                 <span className='font-bold'>front-end part of programming</span>.
             </p>
         </motion.section>
